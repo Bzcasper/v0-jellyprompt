@@ -74,11 +74,11 @@ export default function MarketingStrategyPage() {
 
                 <h3>Key Messages</h3>
                 <ol>
-                  <li>"Create better content, faster, with optimized AI prompts"</li>
-                  <li>"The collaborative platform for AI prompt management"</li>
-                  <li>"From idea to content in minutes, not hours"</li>
-                  <li>"Unlock the full potential of AI for your content needs"</li>
-                  <li>"Join thousands of creators who trust JellyPrompt for consistent results"</li>
+                  <li>&quot;Create better content, faster, with optimized AI prompts&quot;</li>
+                  <li>&quot;The collaborative platform for AI prompt management&quot;</li>
+                  <li>&quot;From idea to content in minutes, not hours&quot;</li>
+                  <li>&quot;Unlock the full potential of AI for your content needs&quot;</li>
+                  <li>&quot;Join thousands of creators who trust JellyPrompt for consistent results&quot;</li>
                 </ol>
 
                 <h3>Competitive Differentiation</h3>
@@ -220,7 +220,7 @@ export default function MarketingStrategyPage() {
               <div className="p-6 prose prose-blue max-w-none">
                 <h2>Go-to-Market Strategy</h2>
                 <p>
-                  JellyPrompt's go-to-market strategy focuses on rapid adoption through a freemium model, content
+                  JellyPrompt&apos;s go-to-market strategy focuses on rapid adoption through a freemium model, content
                   marketing, and strategic partnerships.
                 </p>
 
@@ -320,8 +320,8 @@ Month 6+: Full Launch
               <div className="p-6 prose prose-blue max-w-none">
                 <h2>Content Marketing Plan</h2>
                 <p>
-                  JellyPrompt's content marketing strategy focuses on educating users about AI prompt engineering and
-                  demonstrating the platform's value.
+                  JellyPrompt&apos;s content marketing strategy focuses on educating users about AI prompt engineering and
+                  demonstrating the platform&apos;s value.
                 </p>
 
                 <h3>Content Pillars</h3>
@@ -441,7 +441,7 @@ March:
               <div className="p-6 prose prose-blue max-w-none">
                 <h2>Partnership Opportunities</h2>
                 <p>
-                  Strategic partnerships are a key component of JellyPrompt's growth strategy, providing distribution
+                  Strategic partnerships are a key component of JellyPrompt&apos;s growth strategy, providing distribution
                   channels, integration opportunities, and credibility.
                 </p>
 
@@ -660,7 +660,7 @@ Business Plan:
                 </ul>
 
                 <h3>Competitive Analysis</h3>
-                <p>JellyPrompt's pricing compared to alternatives:</p>
+                <p>JellyPrompt&apos;s pricing compared to alternatives:</p>
                 <ul>
                   <li>20-30% lower than direct competitors with similar features</li>
                   <li>Higher than generic AI tools but with specialized functionality</li>

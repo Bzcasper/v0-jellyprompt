@@ -108,7 +108,7 @@ export default function TechnicalDocumentationPage() {
                 <ul>
                   <li>Category slugs for URL-based lookups</li>
                   <li>Prompt category_id for filtering prompts by category</li>
-                  <li>Prompt user_id for finding a user's prompts</li>
+                  <li>Prompt user_id for finding a user&apos;s prompts</li>
                   <li>Prompt is_featured for displaying featured prompts</li>
                   <li>User favorites user_id and prompt_id for quick lookups</li>
                   <li>Generated content user_id for user history</li>
@@ -160,7 +160,7 @@ export default function TechnicalDocumentationPage() {
 
                 <h3>Template Syntax</h3>
                 <p>
-                  Parameters are referenced in templates using double curly braces: <code>{{ parameter_name }}</code>
+                  Parameters are referenced in templates using double curly braces: <code>{`{{ parameter_name }}`}</code>
                 </p>
                 <p>Example template:</p>
                 <pre className="bg-gray-50 p-4 rounded-md overflow-auto">
@@ -170,7 +170,7 @@ export default function TechnicalDocumentationPage() {
                 <h3>Parameter Processing Flow</h3>
                 <ol>
                   <li>User selects a prompt template</li>
-                  <li>System dynamically generates a form based on the template's parameters</li>
+                  <li>System dynamically generates a form based on the template&apos;s parameters</li>
                   <li>User fills in parameter values</li>
                   <li>On submission, the system replaces all parameter placeholders with user values</li>
                   <li>The processed template is sent to the AI model</li>

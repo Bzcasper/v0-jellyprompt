@@ -1,3 +1,5 @@
+"use client"
+
 import { PromptCard } from "@/components/prompt-card"
 import { Input } from "@/components/ui/input"
 import { BrandButton } from "@/components/ui/brand-button"

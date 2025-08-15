@@ -25,14 +25,10 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-golden gap-8">
-            {" "}
-            {/* Golden ratio grid */}
             <div className="lg:col-span-1">
               <BrandCard variant="blue" className="text-center h-full">
                 <div className="flex flex-col items-center p-6">
                   <div className="w-[6.18rem] h-[6.18rem] rounded-full bg-jelly-blue/20 flex items-center justify-center mb-4">
-                    {" "}
-                    {/* Golden ratio size */}
                     <Sparkles className="h-10 w-10 text-jelly-blue-dark" />
                   </div>
                   <h3 className="text-lg font-medium mb-2">Curated Collection</h3>
@@ -43,14 +39,10 @@ export default function Home() {
               </BrandCard>
             </div>
             <div className="lg:col-span-1.618">
-              {" "}
-              {/* Golden ratio span */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
                 <BrandCard variant="pink" className="text-center">
                   <div className="flex flex-col items-center p-6">
                     <div className="w-[3.82rem] h-[3.82rem] rounded-full bg-jelly-pink/20 flex items-center justify-center mb-4">
-                      {" "}
-                      {/* Golden ratio size */}
                       <Zap className="h-6 w-6 text-jelly-pink-dark" />
                     </div>
                     <h3 className="text-lg font-medium mb-2">Instant Results</h3>
@@ -63,8 +55,6 @@ export default function Home() {
                 <BrandCard variant="blue" className="text-center">
                   <div className="flex flex-col items-center p-6">
                     <div className="w-[3.82rem] h-[3.82rem] rounded-full bg-jelly-blue/20 flex items-center justify-center mb-4">
-                      {" "}
-                      {/* Golden ratio size */}
                       <Users className="h-6 w-6 text-jelly-blue-dark" />
                     </div>
                     <h3 className="text-lg font-medium mb-2">Community Driven</h3>
@@ -75,8 +65,6 @@ export default function Home() {
                 <BrandCard variant="pink" className="text-center md:col-span-2">
                   <div className="flex flex-col items-center p-6">
                     <div className="w-[3.82rem] h-[3.82rem] rounded-full bg-jelly-pink/20 flex items-center justify-center mb-4">
-                      {" "}
-                      {/* Golden ratio size */}
                       <Star className="h-6 w-6 text-jelly-pink-dark" />
                     </div>
                     <h3 className="text-lg font-medium mb-2">Save Favorites</h3>
@@ -97,8 +85,6 @@ export default function Home() {
             Join thousands of users who are already creating amazing content with JellyPrompt.
           </p>
           <BrandButton variant="blue" size="lg" asChild className="px-6 py-3">
-            {" "}
-            {/* Golden ratio padding */}
             <Link href="/register">Create Free Account</Link>
           </BrandButton>
         </div>
