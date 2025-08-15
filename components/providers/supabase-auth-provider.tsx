@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { createContext, useContext, useEffect, useState } from "react"
+import { createContext, useContext, useEffect, useState, useCallback } from "react"
 import type { User } from "@supabase/supabase-js"
 import type { UserProfile } from "@/types/user-profile"
 import { useRouter } from "next/navigation"
@@ -41,7 +41,7 @@ export const SupabaseAuthProvider = ({
   const router = useRouter()
   const supabase = createClient()
 
-  const refreshProfile = async () => {
+  const refreshProfile = useCallback(async () => {
     if (!user) {
       setProfile(null)
       return
@@ -55,7 +55,7 @@ export const SupabaseAuthProvider = ({
     } catch (error) {
       console.error("Error fetching user profile:", error)
     }
-  }
+  }, [supabase, user])
 
   useEffect(() => {
     const getUser = async () => {
@@ -85,7 +85,7 @@ export const SupabaseAuthProvider = ({
     if (user) {
       refreshProfile()
     }
-  }, [user])
+  }, [user, refreshProfile])
 
   const signIn = async (email: string, password: string) => {
     const { error } = await supabase.auth.signInWithPassword({

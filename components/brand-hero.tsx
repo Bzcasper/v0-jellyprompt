@@ -17,17 +17,14 @@ interface BrandHeroProps {
 export function BrandHero({ title, subtitle, primaryCta, secondaryCta }: BrandHeroProps) {
   return (
     <div className="relative overflow-hidden bg-white">
-      {/* Decorative elements */}
       <div className="absolute top-0 right-0 -mt-20 -mr-20 hidden md:block">
-        <div className="h-[16.18rem] w-[16.18rem] rounded-full bg-jelly-blue/20 animate-float" />{" "}
-        {/* Golden ratio size */}
+        <div className="h-[16.18rem] w-[16.18rem] rounded-full bg-jelly-blue/20 animate-float" />
       </div>
       <div className="absolute bottom-0 left-0 -mb-20 -ml-20 hidden md:block">
         <div
           className="h-[10rem] w-[10rem] rounded-full bg-jelly-pink/20 animate-float"
           style={{ animationDelay: "2s" }}
-        />{" "}
-        {/* Golden ratio size */}
+        />
       </div>
 
       <div className="container mx-auto px-4 py-20 md:py-32">
@@ -36,14 +33,10 @@ export function BrandHero({ title, subtitle, primaryCta, secondaryCta }: BrandHe
           <p className="text-xl md:text-2xl text-gray-600 mb-10">{subtitle}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <BrandButton variant="blue" size="lg" asChild className="px-6 py-3">
-              {" "}
-              {/* Golden ratio padding */}
               <Link href={primaryCta.href}>{primaryCta.text}</Link>
             </BrandButton>
             {secondaryCta && (
               <BrandButton variant="outline-pink" size="lg" asChild className="px-6 py-3">
-                {" "}
-                {/* Golden ratio padding */}
                 <Link href={secondaryCta.href}>{secondaryCta.text}</Link>
               </BrandButton>
             )}

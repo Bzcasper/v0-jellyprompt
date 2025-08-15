@@ -12,7 +12,7 @@ export default function VerifyPage() {
           </div>
           <h1 className="text-2xl font-semibold tracking-tight">Check your email</h1>
           <p className="text-sm text-muted-foreground">
-            We've sent you a verification link. Please check your email to verify your account.
+            We&apos;ve sent you a verification link. Please check your email to verify your account.
           </p>
         </div>
         <Button asChild>
